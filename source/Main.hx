@@ -12,6 +12,10 @@ import openfl.events.Event;
 import openfl.display.StageScaleMode;
 import lime.app.Application;
 
+#if linux
+import lime.graphics.Image;
+#end
+
 #if desktop
 import Discord.DiscordClient;
 #end
@@ -100,6 +104,11 @@ class Main extends Sprite
 		}
 		#end
 
+		#if linux
+		var icon = Image.fromFile("icon.png");
+		Lib.current.stage.window.setIcon(icon);
+		#end
+	
 		#if html5
 		FlxG.autoPause = false;
 		FlxG.mouse.visible = false;
@@ -132,7 +141,7 @@ class Main extends Sprite
 		dateNow = dateNow.replace(" ", "_");
 		dateNow = dateNow.replace(":", "'");
 
-		path = "./crash/" + "PsychEngine_" + dateNow + ".txt";
+		path = "./crash/" + "ShatteredEngine_" + dateNow + ".txt";
 
 		for (stackItem in callStack)
 		{
