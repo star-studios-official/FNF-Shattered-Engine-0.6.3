@@ -81,6 +81,14 @@ class CreditsState extends MusicBeatState
 		#end
 
 		var pisspoop:Array<Array<String>> = [ //Name - Icon name - Description - Link - BG Color
+			["Shattered Engine Team (Star Studios)"],
+			['shatterstar9652 (88ggjjj)',		'shatterstar9652',		'Main Programmer of Shattered Engine and owner of Star Studios',								'https://www.youtube.com/channel/UCmWBDL-SV8Z4lvO--DsInNA',	'22771b'],
+			['SimpleBridge (JBag)',		'missing_icon',		'Side Programmer of Shattered Engine/Artist and co-owner of Star Studios/Supporter',								'https://www.youtube.com/@simplebridge3938',	'862ea4'],
+			['SwedishKing2002 (JackSwedishKing)',		'missing_icon',		'Side programmer of Shattered Engine',								'https://www.youtube.com/@Swedish2King',	'0023ff'],
+			['Colonel_Nock',		'missing_icon',		'Supporter',								'https://www.youtube.com/@colonel_nock3967',	'ffae00'],
+			['Gamming Baggo (Creb_Deub)',		'missing_icon',		'Artist of Shattered Engine',								'https://www.youtube.com/@GamingBaggo',	'ac0707'],
+			['LostGemini (Pops)',		'missing_icon',		'Supporter',								'https://github.com/star-studios-official/FNF-Shattered-Engine-0.6.3/',	'fbff00'],
+			['Strawb3riBunni',		'strawb3rri',		'Main artist of Shattered Engine',								'https://github.com/star-studios-official/FNF-Shattered-Engine-0.6.3/',	'ff79c8'],
 			['Psych Engine Team'],
 			['Shadow Mario',		'shadowmario',		'Main Programmer of Psych Engine',								'https://twitter.com/Shadow_Mario_',	'444444'],
 			['RiverOaken',			'river',			'Main Artist/Animator of Psych Engine',							'https://twitter.com/RiverOaken',		'B42F71'],
