@@ -77,6 +77,20 @@
       "url": "https://github.com/Aidan63/linc_discord-rpc"
     },
     {
+      "name": "tentools",
+      "type": "git",
+      "dir": null,
+      "ref": "main",
+      "url": "https://github.com/TentaRJ/tentools"
+    },
+    {
+      "name": "systools",
+      "type": "git",
+      "dir": null,
+      "ref": "master",
+      "url": "https://github.com/haya3218/retools"
+    },
+    {
       "name": "linc_luajit",
       "type": "git",
       "dir": null,
