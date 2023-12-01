@@ -1,8 +1,8 @@
 package;
 
-
-import GameJolt;
-import GameJolt.GameJoltAPI;
+// Check Main.hx
+//import GameJolt;
+//import GameJolt.GameJoltAPI;
 #if desktop
 import sys.thread.Thread;
 #end
