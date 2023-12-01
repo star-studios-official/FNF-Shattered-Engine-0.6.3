@@ -153,6 +153,14 @@ class Conductor
 		crochet = calculateCrochet(bpm);
 		stepCrochet = crochet / 4;
 	}
+	
+	public static function set_bpm(newBPM:Float):Float {
+		bpm = newBPM;
+		crochet = calculateCrochet(bpm);
+		stepCrochet = crochet / 4;
+
+		return bpm = newBPM;
+	}
 }
 
 class Rating
