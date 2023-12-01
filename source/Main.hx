@@ -1,5 +1,8 @@
 package;
 
+
+import GameJolt;
+import GameJolt.GameJoltAPI;
 import flixel.graphics.FlxGraphic;
 import flixel.FlxG;
 import flixel.FlxGame;
@@ -45,6 +48,7 @@ class Main extends Sprite
 	};
 
 	public static var fpsVar:FPS;
+	public static var gjToastManager:GJToastManager; 
 
 	// You can pretty much ignore everything from here on - your code should go in your states.
 
@@ -75,6 +79,9 @@ class Main extends Sprite
 		}
 
 		setupGame();
+
+		gjToastManager = new GJToastManager();
+		addChild(gjToastManager); //adding the toddler
 	}
 
 	private function setupGame():Void
