@@ -24,8 +24,8 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
-import GameJolt;
-import GameJolt.GameJoltAPI;
+//import GameJolt;
+//import GameJolt.GameJoltAPI;
 
 using StringTools;
 
@@ -50,8 +50,8 @@ class OptionsState extends MusicBeatState
 				openSubState(new options.GameplaySettingsSubState());
 			case 'Adjust Delay and Combo':
 				LoadingState.loadAndSwitchState(new options.NoteOffsetState());
-				case 'Gamejolt':
-				FlxG.switchState(new GameJoltLogin());
+				//case 'Gamejolt':
+				//FlxG.switchState(new GameJoltLogin());
 		}
 	}
 
