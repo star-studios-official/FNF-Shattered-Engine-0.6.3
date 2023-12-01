@@ -24,8 +24,8 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
-//import GameJolt;
-//import GameJolt.GameJoltAPI;
+import GameJolt;
+import GameJolt.GameJoltAPI;
 
 using StringTools;
 
