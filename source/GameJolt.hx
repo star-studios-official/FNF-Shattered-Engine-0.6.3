@@ -24,7 +24,6 @@ import openfl.display.Sprite;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
 import MainMenuState;
-import Conductor;
 
 using StringTools;
 
