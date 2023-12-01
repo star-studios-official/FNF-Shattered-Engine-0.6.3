@@ -1,8 +1,8 @@
 package;
 
 // Removed for compatibilaty reasons
-//import GameJolt;
-//import GameJolt.GameJoltAPI;
+import GameJolt;
+import GameJolt.GameJoltAPI;
 import flixel.graphics.FlxGraphic;
 import flixel.FlxG;
 import flixel.FlxGame;
