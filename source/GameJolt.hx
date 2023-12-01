@@ -23,7 +23,7 @@ import openfl.display.BitmapData;
 import openfl.display.Sprite;
 import openfl.text.TextField;
 import openfl.text.TextFormat;
-import states.MainMenuState;
+import MainMenuState;
 import Conductor;
 
 using StringTools;
