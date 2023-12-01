@@ -1,5 +1,8 @@
 package;
 
+
+import GameJolt;
+import GameJolt.GameJoltAPI;
 #if desktop
 import sys.thread.Thread;
 #end
