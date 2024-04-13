@@ -278,6 +278,10 @@ class ChartingState extends MusicBeatState
 
 		FlxG.mouse.visible = true;
 		//FlxG.save.bind('funkin', CoolUtil.getSavePath());
+			
+		if(FlxG.sound.music == null) {
+				FlxG.sound.playMusic(Paths.music('Chartingbs'), 0);
+			}
 
 		tempBpm = _song.bpm;
 
